@@ -1,0 +1,32 @@
+
+body, * {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+}
+
+#navigationBar {
+	display: block;
+	background-color: #555;
+}
+
+#navigationBar #buttons {
+	display: block;
+	text-align: center;
+}
+
+#navigationBar #buttons li {
+	list-style-type: none;
+	display: inline;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 14px;
+}
+
+#navigationBar #buttons a {
+	display: inline-block;
+	width: 150px;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+}
