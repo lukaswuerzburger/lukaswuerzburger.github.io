@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="./css/style.css" rel="stylesheet" type="text/css"/>
-		<meta http-equiv="refresh" content="1"/>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<script src="js/index.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<div id="navigationBar">
-			<div id="buttons">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="index.html">Privacy Policy</a></li>
-					<li><a href="index.html">Imprint</a></li>
-				</ul>
+		<div id="navigation">
+			<span class="title">Lukas W&uuml;rzburger</span><br/>
+			<span class="subtitle">iOS App Developer</span>
+		</div>
+		<div id="content">
+			<span class="headline">Apps</span>
+			<div class="box">
+				<img src="images/stack-overflow-friends.png" class="box-image"/>
+				<span class="box-title">Stack Overflow Friends</span>
+				<span class="box-description">
+					The Stack Overflow Friends app you were waiting for!<br/>
+					<br/>
+					Create a list of friends from Stack Overflow by searching for a name or user ID. Add them to your list and keep track of their stats. Reputation, badges, and activity is always refreshed when you open the app.<br/>
+					<br/>
+					Currently the app is available in english, german, and spanish.
+				</span>
+				<a class="box-link" href="https://apps.apple.com/app/id1480771036" target="_blank"><img src="images/appstore.svg"/></a>
 			</div>
+			<span class="headline">Legal</span>
+			<div class="box">
+				<span class="box-title">Privacy Policy for Stack Overflow Friends iOS app</span>
+				<span class="box-description">
+					The Stack Overflow Friends iOS app uses public data from the <a href="https://api.stackexchange.com/" target="_blank">Stack Exchange API</a>.<br/>
+					<br/>
+					It stores the IDs of users that were added to the friend list on the phone, and only on the phone, in order to remember the added friends and load them the next time the app is opened.<br/>
+					<br/>
+					All other information that is consumed via the Stack Exchange API is held in memory, only as long as the app is running.<br/>
+					<br/>
+					No data is stored on any remote server.
+				</span>
+			</div>
+			<div class="box">
+				<span class="box-title">Imprint</span>
+				<span class="box-description">
+					Lukas Würzburger, Berlin<br/>
+					Email: <a href="javascript:openMail();" onclick="">Click to open</a>
+				</span>
+			</div>
+		</div>
+		<div id="footer">
+			Made with &hearts; in Berlin | 2019 &copy; Lukas W&uuml;rzburger
 		</div>
 	</body>
 </html>
