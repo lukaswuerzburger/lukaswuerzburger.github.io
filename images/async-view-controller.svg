@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.851846 0 0 0 0 0.594905 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.973024 0 0 0 0 0.729130 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(255.775281, 263.000000) scale(1, -1) translate(-255.775281, -263.000000) translate(93.775281, 71.000000)" stroke-linejoin="round">
+            <g filter="url(#filter-1)" id="Group">
+                <g transform="translate(102.884875, 1.000000)">
+                    <g id="Right" transform="translate(59.339844, 0.000000)" stroke="#4F4F4F">
+                        <polyline id="Right-Arm" stroke-width="40" points="0 383 0 333 108 63"></polyline>
+                        <polygon id="Triangle-Copy" stroke-width="7" fill="#4F4F4F" transform="translate(117.224719, 39.500000) rotate(22.000000) translate(-117.224719, -39.500000) " points="117.224719 12 152.449438 67 82 67"></polygon>
+                    </g>
+                    <line x1="116.839844" y1="170.5" x2="0.83984375" y2="170.5" id="Path" stroke="#F8BA00" stroke-width="40" stroke-linecap="round"></line>
+                </g>
+            </g>
+            <g filter="url(#filter-2)" id="Left">
+                <g transform="translate(81.724719, 192.000000) scale(-1, 1) translate(-81.724719, -192.000000) translate(0.224719, 0.000000)">
+                    <polyline id="Right-Arm" stroke="#4F4F4F" stroke-width="40" points="1 384 0.724719101 334 110 64"></polyline>
+                    <polygon id="Triangle-Copy" stroke="#4F4F4F" stroke-width="7" fill="#4F4F4F" transform="translate(119.775281, 39.500000) rotate(23.000000) translate(-119.775281, -39.500000) " points="119.775281 12 155 67 84.5505618 67"></polygon>
+                </g>
+            </g>
+        </g>
+        <path d="M108,28 L404,28 C448.18278,28 484,63.81722 484,108 L484,404 C484,448.18278 448.18278,484 404,484 L108,484 C63.81722,484 28,448.18278 28,404 L28,108 C28,63.81722 63.81722,28 108,28 Z" id="Rectangle" stroke="#F8BA00" stroke-width="7" stroke-dasharray="40"></path>
+    </g>
+</svg>

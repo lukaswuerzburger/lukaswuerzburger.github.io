@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.231233 0 0 0 0 0.231233 0 0 0 0 0.231233 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <circle id="path-2" cx="228" cy="228" r="183"></circle>
+        <filter id="filter-4">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.776266 0 0 0 0 0.170713 0 0 0 0 0.975713 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-5">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.776266 0 0 0 0 0.170713 0 0 0 0 0.975713 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-6">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.776266 0 0 0 0 0.170713 0 0 0 0 0.975713 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="228" cy="228" r="157"></circle>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="314" height="314" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="Group">
+            <g transform="translate(28.000000, 28.000000)">
+                <rect id="App-Border" stroke="#C62CF9" stroke-width="7" x="0" y="0" width="456" height="456" rx="80"></rect>
+                <circle id="Oval" stroke="#C62CF9" stroke-width="7" cx="228" cy="228" r="186.5"></circle>
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Oval"></g>
+                <g id="Lines" opacity="0" mask="url(#mask-3)">
+                    <g transform="translate(11.000000, 117.500000)">
+                        <g filter="url(#filter-4)" id="Bottom">
+                            <g transform="translate(0.000000, 218.000000)">
+                                <line x1="0" y1="0.5" x2="54" y2="0.5" id="Path-2" stroke="#979797" stroke-width="7"></line>
+                                <line x1="109" y1="0.5" x2="163" y2="0.5" id="Path-2" stroke="#979797" stroke-width="7"></line>
+                                <line x1="217" y1="0.5" x2="271" y2="0.5" id="Path-2" stroke="#979797" stroke-width="7"></line>
+                                <line x1="326" y1="0.5" x2="380" y2="0.5" id="Path-2" stroke="#979797" stroke-width="7"></line>
+                            </g>
+                        </g>
+                        <g filter="url(#filter-5)" id="Middle">
+                            <g transform="translate(53.500000, 2.000000)">
+                                <line x1="0.5" y1="0" x2="0.5" y2="217" id="Path-3" stroke="#979797" stroke-width="7"></line>
+                                <line x1="54.5" y1="0" x2="54.5" y2="217" id="Path-3" stroke="#979797" stroke-width="7"></line>
+                                <line x1="109.5" y1="0" x2="109.5" y2="217" id="Path-3" stroke="#979797" stroke-width="7"></line>
+                                <line x1="163.5" y1="0" x2="163.5" y2="217" id="Path-3" stroke="#979797" stroke-width="7"></line>
+                                <line x1="217.5" y1="0" x2="217.5" y2="217" id="Path-3" stroke="#979797" stroke-width="7"></line>
+                                <line x1="271.5" y1="0" x2="271.5" y2="217" id="Path-3" stroke="#979797" stroke-width="7"></line>
+                                <line x1="326.5" y1="0" x2="326.5" y2="217" id="Path-3" stroke="#979797" stroke-width="7"></line>
+                            </g>
+                        </g>
+                        <g filter="url(#filter-6)" id="Top">
+                            <g transform="translate(54.000000, 0.000000)">
+                                <line x1="0" y1="0.5" x2="54" y2="0.5" id="Path-2" stroke="#979797" stroke-width="7"></line>
+                                <line x1="109" y1="0.5" x2="163" y2="0.5" id="Path-2" stroke="#979797" stroke-width="7"></line>
+                                <line x1="217" y1="0.5" x2="271" y2="0.5" id="Path-2" stroke="#979797" stroke-width="7"></line>
+                                <line x1="326" y1="0.5" x2="380" y2="0.5" id="Path-2" stroke="#979797" stroke-width="7"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <use id="Oval" stroke="#C62CF9" mask="url(#mask-8)" stroke-width="60" stroke-dasharray="7,27" xlink:href="#path-7"></use>
+                <path d="M256.814601,266.935399 C271.72629,266.935399 283.814601,254.847087 283.814601,239.935399 C283.814601,229.994273 274.814601,193.827607 256.814601,131.435399 C238.814601,193.827607 229.814601,229.994273 229.814601,239.935399 C229.814601,254.847087 241.902913,266.935399 256.814601,266.935399 Z" id="Oval" fill="#D8D8D8" transform="translate(256.814601, 199.185399) rotate(-315.000000) translate(-256.814601, -199.185399) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
